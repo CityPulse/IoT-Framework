@@ -1,18 +1,20 @@
-## Semantic Adapter for IoT Framework
+## Semantic Mapper for IoT Framework
 
-### Used API of IoT Frameworks
+This is a simple RESTful API which provides semantically annotated data points from the IoT-Framework engine [[https://github.com/EricssonResearch/iot-framework-engine]]. The main requirement for using this system is an elastic search backend such as the one used by the IoT-Framework engine (for more details see the mapping section below).
+
+### Used API of IoT Framework
 
 * Get all streams
 
-  http://axondev.cf.ericsson.net:8000/streams
+  http://localhost:8000/streams
 
 * Get a specified stream
 
-  http://axondev.cf.ericsson.net:8000/streams/FFqNysD8Qqe18BNUAEphkA
+  http://localohost:8000/streams/FFqNysD8Qqe18BNUAEphkA
 
 * Get all data of the specified stream
 
-  http://axondev.cf.ericsson.net:8000/streams/FFqNysD8Qqe18BNUAEphkA/data
+  http://localhost:8000/streams/FFqNysD8Qqe18BNUAEphkA/data
 
 
 ### Preparation
