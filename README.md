@@ -88,3 +88,5 @@ Virtual Stream Data Point -> ssn:SensorOutput
   timestamp -> hasEventDate
   value -> ssn:ObservationValue
 ```
+## Contributers
+The Semantic Mapper component was developed as part of the EU project CityPulse. The consortium member Ericsson provided the main contributions for this component.
