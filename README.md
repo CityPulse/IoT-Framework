@@ -10,7 +10,7 @@ This is a simple RESTful API which provides semantically annotated data points f
 
 * Get a specified stream
 
-  http://localohost:8000/streams/FFqNysD8Qqe18BNUAEphkA
+  http://localhost:8000/streams/FFqNysD8Qqe18BNUAEphkA
 
 * Get all data of the specified stream
 
